@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 from selenium import webdriver
@@ -9,7 +9,7 @@ from selenium.webdriver.support.select import Select
 import pandas as pd
 
 
-# In[2]:
+# In[ ]:
 
 
 # Webdriver to automate browser
@@ -28,7 +28,7 @@ button.click()
 driver.maximize_window
 
 
-# In[3]:
+# In[ ]:
 
 
 # Get the following columns from table
@@ -63,7 +63,7 @@ FDV = driver.find_elements('xpath', '//tr/td[10]')
 # for n in FDV:
 #     print(n.text)
 
-# In[4]:
+# In[ ]:
 
 
 # Loop over all lists and get text elements:
@@ -87,20 +87,20 @@ for i in range(len(Coin)):
     result.append(data)
 
 
-# In[5]:
+# In[ ]:
 
 
 df = pd.DataFrame(result)
 df
 
 
-# In[6]:
+# In[ ]:
 
 
 df.to_excel('Coingecko.xlsx', index=False)
 
 
-# In[7]:
+# In[ ]:
 
 
 driver.close()
