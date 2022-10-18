@@ -7,6 +7,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
 import pandas as pd
+import time
 
 
 # In[ ]:
