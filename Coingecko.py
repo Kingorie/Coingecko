@@ -20,7 +20,7 @@ driver = webdriver.Chrome()
 driver.get('https://coingecko.com')
 
 # Click button: Show Fully Diluted Valuation
-button = driver.find_element('xpath', '//body[1]/div[4]/div[4]/div[2]/div[2]/div[1]/button[1]')
+button = driver.find_element('xpath', '//body/div[4]/div[4]/div[2]/div[2]/div/button')
 # clicking on the button
 button.click()
 
