@@ -1,15 +1,3 @@
-
-.DS_Store
-Reports
-Coingecko_2.ipynb
-Coingecko_pg20.ipynb
+.ipynb_checkpoints
 Coingecko_3.ipynb
 Coingecko_3.py
-coin_prices.xlsx
-csv.ipynb
-.ipynb_checkpoints
-xxxxxxxx
-*.ipynb
-coin_prices.xlsx
-coin_prices.xlsx
-csv.ipynb
